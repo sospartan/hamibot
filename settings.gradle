@@ -1,1 +1,14 @@
+pluginManagement {
+
+    repositories {
+
+        maven { url 'https://maven.aliyun.com/repository/public' }
+
+        gradlePluginPortal()
+
+    }
+
+}
+
 include ':app', ':automator', ':common', ':autojs', ':inrt'
+

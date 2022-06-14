@@ -40,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.1-alpha01', {
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.5.0-alpha07', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testImplementation 'junit:junit:4.12'
@@ -50,7 +50,7 @@ dependencies {
     api('com.afollestad.material-dialogs:core:0.9.2.3', {
         exclude group: 'com.android.support'
     })
-    api 'com.google.android.material:material:1.1.0-alpha01'
+    api 'com.google.android.material:material:1.7.0-alpha02'
     api 'com.github.hyb1996:EnhancedFloaty:0.31'
     api 'com.makeramen:roundedimageview:2.3.0'
     // OpenCv
